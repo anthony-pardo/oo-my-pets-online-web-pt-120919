@@ -68,4 +68,14 @@ class Owner
     end
   end
   
+  def list_pets 
+    cats.each do |cat|
+      puts cat.name 
+    end
+    
+    dogs.each do |dog|
+      puts dog.name 
+    end
+  end
+  
 end
